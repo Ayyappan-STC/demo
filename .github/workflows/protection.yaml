@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: repo list
         run: |
-          curl -L -H "Accept: application/vnd.github+json" -H "Authorization: Bearer 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" -H "X-GitHub-Api-Version: 2022-11-28" https://api.github.com/orgs/Ayyappan-STC/repos?per_page=100
+          curl -L -H "Accept: application/vnd.github+json" -H "Authorization: Bearer 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" -H "X-GitHub-Api-Version: 2022-11-28" https://api.github.com/orgs/Ayyappan-STC/repos?per_page=100
           
