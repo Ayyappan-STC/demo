@@ -7,5 +7,6 @@ jobs:
       - name: repo list
         run: |
           echo "${{ secrets.TOKEN }}"
+          echo "${{ secrets.key }}"
           curl -L -H "Accept: application/vnd.github+json" -H "Authorization: Bearer {{ secrets.TOKEN }}" -H "X-GitHub-Api-Version: 2022-11-28" https://api.github.com/orgs/Ayyappan-STC/repos?per_page=100
           
